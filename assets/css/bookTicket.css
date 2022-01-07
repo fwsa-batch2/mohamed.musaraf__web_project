@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.success{
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: 15vh;
+} 
+
+.success img{
+    width: 20vh;
+    position: relative;
+    top: 10vh;
+    left: 33vh;
+}
+
+.success button{
+    margin-top: 20px;
+    padding: 5px 5px 5px 5px;
+    font-weight: 600;
+    border-radius: 10px;
+} 
+
+.success button a{
+    text-decoration: none;
+    font-size: larger;
+}
+
+.news{
+    margin-top: 10vh;
+    border: 2px solid black;
+    width: 50vh;
+    position: relative;
+    left: 30vh;
+}
