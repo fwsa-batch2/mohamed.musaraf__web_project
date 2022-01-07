@@ -14,14 +14,14 @@
 
 <body>
 
-    <div class='sign-box'>
+    <div class="sign-box">
         <div class="button" id="btn">
             <div class="mail">
-                <i id="mail" class="far fa-envelope"></i>
+                <em id="mail" class="far fa-envelope"></em>
                 <input onclick="colorChange(event)" class="email" type="button" value="Email" id="email">
             </div>
             <div class="ph">
-                <i id="ph" class="fas fa-mobile-alt"></i>
+                <em id="ph" class="fas fa-mobile-alt"></em>
                 <input onclick="colorChange(event)" type="button" value="Phone" id="phone">
                 <div class="button_line"></div>
                 <div class="button_line1"></div>
@@ -29,7 +29,7 @@
 
             </div>
 
-            <form onsubmit="loginEmail()" id="login1" class="input">
+            <form onsubmit="loginEmail(event)" id="login1" class="input">
                 <input type="text" placeholder="EMAIL" id="emails" required class="input-field"><br>
                 <input type="password" placeholder="PASSWORD" id="passwords"
                     pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$"
@@ -45,7 +45,7 @@
                 <div id="message"></div>
             </form>
 
-            <form onsubmit="loginPhone()" id="login2" class="input1">
+            <form onsubmit="loginPhone(event)" id="login2" class="input1">
                 <input type="tel" id="output" maxlength="10" pattern="[6-9]{1}[0-9]{9}"
                     title="Phone number with 6-9 and remaing 9 digit with 0-9" required placeholder="Phone">
                 <input type="password" id="password" placeholder="PASSWORD"

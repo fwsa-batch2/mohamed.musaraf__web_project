@@ -26,7 +26,7 @@ function changeImg() {
     } else {
         i = 0;
     }
-    document.slide.src = images[i];
+    document.querySelector(".slide").src = images[i];
 
     setTimeout('changeImg()', time);
 

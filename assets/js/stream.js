@@ -25,13 +25,13 @@ function changeImg1() {
     } else {
         i1 = 0;
     }
-    document.streamImage.src = images1[i1];
+    document.querySelector(".streamImage").src = images1[i1];
 
     setTimeout('changeImg1()', time1);
 
 }
 
-window.onload = changeImg1();
+changeImg1();
 
 
 let i2 = 0;
@@ -61,13 +61,13 @@ function changeImg2() {
     } else {
         i2 = 0;
     }
-    document.streamImage2.src = images2[i2];
+    document.querySelector(".streamImage2").src = images2[i2];
 
     setTimeout('changeImg2()', time2);
 
 }
 
-window.onload = changeImg2();
+changeImg2();
 
 // filter------------------------------------------------------------------------
 
