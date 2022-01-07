@@ -28,7 +28,7 @@ function loginEmail(event) {
 
 
     let loginpage = JSON.parse(localStorage.getItem('userDetails'));
-    isMatch = false;
+    let isMatch = false;
 
     for (let values of loginpage) {
         let elementEmails = values.Email;
@@ -43,7 +43,6 @@ function loginEmail(event) {
     if (isMatch) {
         localStorage.setItem('User_Detail', emails);
         window.open('/index.html')
-        return;
     } else {
         document.getElementById('message').innerText = 'Invalid Credentials'
 
@@ -73,7 +72,6 @@ function loginPhone(event) {
     if (isMatch) {
         localStorage.setItem('User_phoneDetail', Phone);
         window.open('/index.html')
-        return;
     } else {
         document.getElementById('messages').innerText = 'Invalid Credentials'
 

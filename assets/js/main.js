@@ -102,12 +102,7 @@ function searchPages() {
     }
 }
 
-
-
-
-
-
-
+// movie filter---------------------------------------------------------------------//
 
 $(document).ready(function() {
     
