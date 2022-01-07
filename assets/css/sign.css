@@ -147,20 +147,8 @@ text-decoration: none;
 }
 
 
-#country{
-position: relative;
-right: 40px;
-border-style: none;
-background: transparent;
-outline-style: none;
-margin-right: 10px;
-font-size: 20px;
-}
 
 #output{
-    border-top: none;
-    border-left: none;
-    border-right: none;
     background: transparent;
     outline-style: none;
     width: 100%;
@@ -214,4 +202,17 @@ font-size: 20px;
 .register a{
     text-decoration: none;
 
+}
+
+#messages{
+    position: relative;
+    top: 20px;
+    color: red;
+}
+
+#message{
+    position: relative;
+    top: 20px;
+    color: red;
+  
 }

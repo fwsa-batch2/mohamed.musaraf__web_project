@@ -11,14 +11,3 @@ function bookTicket() {
 }
 
 
-// function ticketDownload() {
-//     let seatIndex = JSON.parse(localStorage.getItem('SelectedSeatsIndex'));
-// let movieIndex= localStorage.getItem('seletedMovieIndex');
-// let totalPrice= localStorage.getItem('SelectedSeatsTotalPrice');
-// let moviePrice= localStorage.getItem('selectedMoviePrice');
-// let docs=document.getElementById('news')
-// console.log(seatIndex);
-// docs.innerHTML=seatIndex;
-    // let divs = `<p>` +seatIndex+ `</p>`;
-    // divs=innerText;
-// }

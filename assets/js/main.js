@@ -2,22 +2,7 @@ function showNav() {
     document.getElementById('sidebar').classList.toggle('active')
 }
 
-
-// let btnContainer = document.getElementById('secondMenu');
-// let bttns = document.getElementsByClassName('btns');
-
-// for (let i = 0; i < bttns.length; i++) {
-//     bttns[i].addEventListener('click', function() {
-// let current = document.getElementsByClassName('actives');
-// current[0].className=current[0].className.replace(' actives');
-// this.className += ' actives';
-
-//     })
-
-// }
-
-//////////////////////////////////////////////////////////////////////////
-
+// image slide----------------------------------------------------------
 
 let i = 0;
 
@@ -47,10 +32,10 @@ function changeImg() {
 
 }
 
-window.onload = changeImg();
+changeImg();
 
 
-
+// search bar------------------------------------------------------------------------------------//
 
 function searchPages() {
     
