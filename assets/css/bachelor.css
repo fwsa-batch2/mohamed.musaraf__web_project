@@ -235,10 +235,13 @@
     bottom: 59vh;
     left: 61vh;
 }
+.bookTickets a{
+    text-decoration: none;
+    color: #fff;
+}
 
 .bookTickets:hover{
     background-color: silver;
-    color: #ed5663;
 }
 
 

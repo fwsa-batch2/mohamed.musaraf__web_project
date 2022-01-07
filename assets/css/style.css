@@ -319,173 +319,7 @@ cursor: pointer;
 
 
 
-/* Genres box-------------------------------------------------------------------------------------------------------- */
-.genres {
-    box-shadow: 2px 2px 2px 2px grey;
-    width: 40vh;
-    margin-left: 40px;
-    margin-top: 20px;
-    padding-right: 50px;
-    color: rgb(220, 53, 88);
-    background:  #ffffff;
-    border-radius: 20px;
 
-}
-
-
-.tamils {
-    margin-bottom: 10px;
-    border: 1px solid grey;
-    width: 80px;
-    height: 20px;
-    text-align: center;
-    padding-top: 5px;
-}
-
-.englishs {
-    border: 1px solid grey;
-    width: 60px;
-    height: 20px;
-    text-align: center;
-    padding-top: 5px;
-    position: relative;
-    left: 200px;
-    bottom: 37px;
-}
-
-.hindis {
-    margin-bottom: 10px;
-    border: 1px solid grey;
-    width: 60px;
-    height: 20px;
-    text-align: center;
-    padding-top: 5px;
-    position: relative;
-    left: 280px;
-    bottom: 63px;
-
-}
-
-.telugus {
-    margin-bottom: 10px;
-    border: 1px solid grey;
-    width: 60px;
-    height: 20px;
-    text-align: center;
-    padding-top: 5px;
-    position: relative;
-    left: 100px;
-    bottom: 63px;
-}
-
-.malais {
-    border: 1px solid grey;
-    width: 90px;
-    height: 20px;
-    text-align: center;
-    padding-top: 5px;
-    position: relative;
-    left: 180px;
-    bottom: 98px;
-}
-
-.kannadas {
-    margin-bottom: 10px;
-    border: 1px solid grey;
-    width: 70px;
-    height: 20px;
-    text-align: center;
-    padding-top: 5px;
-    position: relative;
-    left: 290px;
-    bottom: 125px;
-
-}
-
-/* form box----------------------------------------------------------------------------------------------------------------------------------- */
-
-.format {
-    box-shadow: 2px 2px 2px 2px grey;
-    width: 40vh;
-    margin-left: 40px;
-    margin-top: 20px;
-    padding-right: 50px;
-    background:  #ffffff;
-    color: rgb(220, 53, 88);
-    border-radius: 20px;
-
-}
-
-
-
-.gene {
-    position: relative;
-    top: 70px;
-    left: -1px;
-
-
-
-}
-
-.gen {
-    position: relative;
-    bottom: 50px;
-    left: -1px;
-
-}
-
-
-.tam {
-    margin-bottom: 10px;
-    border: 1px solid grey;
-    width: 80px;
-    height: 20px;
-    text-align: center;
-    padding-top: 5px;
-}
-
-.eng {
-    border: 1px solid grey;
-    width: 60px;
-    height: 20px;
-    text-align: center;
-    padding-top: 5px;
-    position: relative;
-    left: 200px;
-    bottom: 37px;
-}
-
-.hin {
-    margin-bottom: 10px;
-    border: 1px solid grey;
-    width: 60px;
-    height: 20px;
-    text-align: center;
-    padding-top: 5px;
-    position: relative;
-    left: 280px;
-    bottom: 63px;
-
-}
-
-.tel {
-    margin-bottom: 10px;
-    border: 1px solid grey;
-    width: 60px;
-    height: 20px;
-    text-align: center;
-    padding-top: 5px;
-    position: relative;
-    left: 100px;
-    bottom: 63px;
-}
-
-
-.genes {
-    position: relative;
-    top: 10px;
-    left: -2px;
-}
 
 /* explore upcoming------------------------------------------------------- */
 
@@ -493,14 +327,14 @@ cursor: pointer;
 .moviesChennai{
     position: relative;
     left: 100vh;
-    bottom: 25vh;
+    bottom: 18vh;
     width: 350px;
 }
 
 .explore{
     position: relative;
     left: 60vh;
-    bottom: 14.5vh;
+    bottom: 13vh;
     background: #ffffff;
     width: 120vh;
     height: 80px;
@@ -524,7 +358,7 @@ cursor: pointer;
     text-decoration: none;
 }
 
-.explore i{
+.explore em{
     position: relative;
     left: 18px;
 color: #e1515d;
@@ -578,6 +412,6 @@ box-shadow: 1px 1px 1px 2px #222539;
         width: 100%;
         padding-top: 26px;
         position: absolute;
-        top: 290vh;
+        top: 285vh;
     }
 
