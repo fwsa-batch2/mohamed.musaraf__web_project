@@ -1,4 +1,9 @@
-# html-project-template
+# BookMyShow
+
+Netlify: https://bookmyshowapp-ui-mohamedmusaraf.netlify.app/
+Github:https://github.com/fwsa-batch-02/bookmyshowapp-ui.
+Sonarcloud:https://sonarcloud.io/project/overview?id=fwsa-batch-02_bookmyshowapp-ui
+Subdomain:https://bookmyshow.fwsa.in/
 
 **Features**
 
