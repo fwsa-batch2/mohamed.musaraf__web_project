@@ -37,8 +37,8 @@ Subdomain:https://bookmyshow.fwsa.in/
 
 1.Type the key to search the pages.<br>
 2.I have worked with search bar for over 29 pages.<br>
-3.These are the some keys "movies,stream,spiderman,sooriyavanshi,residentevil,
-pushpa,muddy,maanadu,eternals,jail,ikk,etc...<br>
+3.These are the some keys "movies,spiderman,sooriyavanshi,residentevil,
+pushpa,kurup,maanadu,eternals,jail,bachelor,etc...<br>
 
 
 **Filter**
