@@ -1,4 +1,11 @@
-# html-project-template
+# BookMyShow
+
+
+Netlify: https://bookmyshowapp-ui-mohamedmusaraf.netlify.app/ <br>
+Github:https://github.com/fwsa-batch-02/bookmyshowapp-ui.<br>
+Sonarcloud:https://sonarcloud.io/project/overview?id=fwsa-batch-02_bookmyshowapp-ui <br>
+Subdomain:https://bookmyshow.fwsa.in/
+
 
 **Features**
 
@@ -46,5 +53,13 @@ pushpa,muddy,maanadu,eternals,jail,ikk,etc...<br>
 **Seat Booking**
 
 1.User can Book a ticket by click Book Tickets.<br>
-2.By click a separate movies in movies section to book a tickets.<br>
+2.By click a select option for separate movies section to book a tickets.<br>
 3.Ticket details will be stored in Local Storage.<br>
+4.Click proceed to move payment section in that following details are mandatory :- <br>
+  a. Card Number - 4444333322221111<br>
+  b. Expiry Date - 01/24<br>
+  c. CVV - 333<br>
+  d. CardHolder Name - musaraf<br>
+if any of the details will be miss match then it will alert.  <br>
+5.After the details matched then it will lead user to the OTP section. In that user need to click "Click to get Otp" <br>
+to receive OTP and paste it in the below feild to complete the transaction. 

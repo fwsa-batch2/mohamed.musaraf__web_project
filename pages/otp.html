@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div id="otp"> </div>
+        <button onclick="otpGenerate()">generate otp</button>
+        <div class="shown"></div>
+    </div>
+    <input type="number" id="num">
+    <button onclick="verifyOtp()">verify</button>
+    <script>
+        function otpGenerate() {
+            let nw = new Uint16Array(1);
+            let ee = crypto.getRandomValues(nw);
+            let ots = document.querySelector('.shown').innerHTML = ee;
+            localStorage.setItem('OTP', ots)
+            console.log(ots);
+        }
+
+        function verifyOtp() {
+            let getOtp = localStorage.getItem('OTP');
+            let num = document.getElementById('num').value;
+            console.log("get", getOtp);
+            if (getOtp == num) {
+                alert('verified')
+            } else {
+                alert('not valid')
+            }
+        }
+    </script>
+</body>
+
+</html>

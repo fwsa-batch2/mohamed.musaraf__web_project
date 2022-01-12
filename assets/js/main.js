@@ -42,7 +42,7 @@ function searchPages() {
     let searchBar =document.getElementById("search").value;
 
     if ('movies' == searchBar) {
-        window.open('/pages/index.html')
+        window.open('/index.html')
     } else if ('spiderman' == searchBar) {
         window.open('/pages/spider.html')
     } else if ('sooriyavanshi' == searchBar) {

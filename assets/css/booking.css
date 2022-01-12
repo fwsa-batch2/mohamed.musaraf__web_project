@@ -112,7 +112,7 @@ p.text span {
     color: aqua;
 }
 
-.back{
+.back {
     background-color: #ed5660;
     width: 10vh;
     height: 3vh;
@@ -121,12 +121,12 @@ p.text span {
     border-radius: 8px;
 }
 
-.back a{
+.back a {
     text-decoration: none;
     color: #fff;
 }
 
-.proceed{
+.proceed {
     background-color: #ed5660;
     width: 10vh;
     height: 3vh;
@@ -136,8 +136,259 @@ p.text span {
     color: #fff;
 }
 
-#check{
+#check {
     color: red;
     font-style: oblique;
     padding-top: 20px;
+}
+
+.bookBg {
+    background: #f1f5f4;
+    width: 520px;
+    height: 500px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(219, 213, 213, 0.75);
+    top: 27.8vh;
+    display: none;
+}
+
+.show {
+    font-size: 30px;
+    color: #ed5660;
+    position: relative;
+    left: 49.5vh;
+    bottom: 37px;
+    background-color: #f1f5f4;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px #444451;
+
+}
+
+
+.ticketDetail {
+    color: #444451;
+    position: relative;
+    left: 40px;
+    bottom: 15px;
+}
+
+.bms {
+    background-color: #777;
+}
+
+.bms img {
+    width: 100px;
+    position: relative;
+    left: 215px;
+    padding-top: 5px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.card {
+    position: relative;
+    left: 30px;
+}
+
+
+.card input {
+    width: 290px;
+    height: 40px;
+    font-size: larger;
+    position: relative;
+    bottom: 39.9px;
+    left: 84px;
+    border: 1px solid #777;
+    padding-left: 10px;
+
+}
+
+.card em {
+    font-size: 30px;
+}
+
+.visa {
+    background-color: #fff;
+    width: 40px;
+    position: relative;
+    left: 30px;
+    height: 39.9px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 45px;
+    border: 1px solid #777;
+}
+
+.card h3 {
+    position: relative;
+    left: 30px;
+}
+
+.cards {
+    color: #242333;
+    position: relative;
+    left: 22px;
+}
+
+.expiry input {
+    position: relative;
+    bottom: 10px;
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: larger;
+
+}
+
+.expiry {
+    position: relative;
+    bottom: 43px;
+    left: 60px;
+}
+
+.cvv input {
+    position: relative;
+    bottom: 10px;
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: larger;
+
+}
+
+.cvv {
+    position: relative;
+    bottom: 133px;
+    left: 200px;
+}
+
+.cardHolder {
+    position: relative;
+    bottom: 140px;
+    left: 60px;
+}
+
+.cardHolder input {
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: larger;
+}
+
+.pay {
+    position: relative;
+    bottom: 120px;
+    left: 60px;
+}
+
+.pay button {
+    width: 355px;
+    height: 50px;
+    font-size: larger;
+    background-color: #ed5660;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.otp{
+   background-color: #fff;
+   width: 400px; 
+   height:350px;
+   position: absolute;
+   border-radius: 5px;
+   box-shadow: 2px 2px 2px 2px grey;
+   top: 41vh;
+   display: none;
+}
+
+.bms1 {
+    background-color: #777;
+    border-radius: 5px;
+}
+
+.bms1 img {
+    width: 100px;
+    position: relative;
+    left: 150px;
+    padding-top: 10px;
+}
+
+.show1 {
+    font-size: 30px;
+    color: #ed5660;
+    position: relative;
+    left: 37.4vh;
+    bottom: 38px;
+    background-color: #f1f5f4;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px #444451;
+
+}
+
+.generateOtp{
+    color: #242333;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+}
+
+.generateOtp h2{
+    cursor: pointer;
+}
+
+.generateOtp .otpNo{
+    position: relative;
+    bottom: 10px;
+    left: 60px;
+    border: 1px solid #444451;
+    width: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #777;
+    color: #fff;
+    display: none;
+}
+
+
+.otpInput{
+    position: relative;
+    left: 130px;
+}
+
+.otpInput input{
+    width: 130px;
+    text-align: center;
+    font-size: larger;
+    height: 40px;
+    letter-spacing: 10px;
+    outline-style: none;
+    border-style:groove;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.otpInput button{
+    position: relative;
+    right: 90px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: larger;
+    background-color: #ed5660;
+    color: #fff;
+}
+
+.otpAlert{
+    color: red;
+    position: relative;
+    left: 120px;
+    top: 20px;
 }

@@ -75,3 +75,94 @@ updateSelectedCount();
 ///////// seats Proceed--------------------------------------------------------------/////////////////
 
 
+$(document).ready(function () {
+    $('.proceed').click(function () {
+        $('.bookBg').show(500);
+        $('.screen').hide();
+    })
+    $('.show').click(function () {
+        $('.bookBg').hide(500);
+        $('.screen').show();
+
+    })
+})
+
+function onTicket() {
+
+    let noseat = JSON.parse(localStorage.getItem('SelectedSeatsIndex'));
+    let seatPrice = localStorage.getItem('SelectedSeatsTotalPrice');
+
+    let innerSeat = document.querySelector('.noSeat');
+    let innerPrice = document.querySelector('.seatPrice');
+
+    innerSeat.innerHTML = noseat;
+    innerPrice.innerHTML = seatPrice;
+
+}
+
+
+function onLoadCard() {
+    localStorage.setItem('cardNumber', 4444333322221111)
+    localStorage.setItem('cardExpiry', '01/24')
+    localStorage.setItem('cvv', 333)
+    localStorage.setItem('cardHolderName', 'musaraf')
+}
+
+onLoadCard();
+// 
+
+// payment otp---------------------------------------------------------------->
+
+
+$(document).ready(function () {
+
+    $('#paynow').click(function (event) {
+        event.preventDefault();
+
+        let getCard = localStorage.getItem('cardNumber');
+        let getCardExpiry = localStorage.getItem('cardExpiry');
+        let getCardCvv = localStorage.getItem('cvv');
+        let getCardName = localStorage.getItem('cardHolderName');
+
+        let cardInt = document.querySelector('.cardInt').value;
+        let cardIntExp = document.querySelector('.cardIntExp').value;
+        let cardIntCvv = document.querySelector('.cardIntCvv').value;
+        let cardIntName = document.querySelector('.cardIntName').value;
+
+        if (cardInt == getCard && getCardExpiry == cardIntExp && getCardCvv == cardIntCvv && getCardName == cardIntName) {
+            $('.otp').show(500);
+            $('.bookBg').hide();
+        } else {
+            alert('Card Details not Available')
+        }
+    })
+    $('.show1').click(function () {
+        $('.otp').hide(500);
+        $('.bookBg').show();
+    })
+    $('.revealOtp').click(function () {
+        $('.otpNo').show();
+    })
+    
+})
+
+
+function otpGenerate() {
+    let nw = new Uint16Array(1);
+    let ee = crypto.getRandomValues(nw);
+    let ots = document.querySelector('.otpNo').innerHTML = ee;
+    localStorage.setItem('OTP', ots)
+    console.log(ots);
+}
+
+function verifyOtp() {
+    let getOtp = localStorage.getItem('OTP');
+    let num = document.getElementById('num').value;
+    let OtpAlert = document.querySelector('.otpAlert');
+    console.log("get", getOtp);
+    if (getOtp == num) {
+        window.open('/pages/bookTicket.html')
+    } else {
+        OtpAlert.innerHTML = 'Please Check Your OTP'
+    }
+}
