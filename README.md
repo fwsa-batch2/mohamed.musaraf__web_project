@@ -1,18 +1,12 @@
 # BookMyShow
 
-<<<<<<< HEAD
 
-Netlify: https://bookmyshowapp-ui-mohamedmusaraf.netlify.app/ <br>
-Github:https://github.com/fwsa-batch-02/bookmyshowapp-ui.<br>
-Sonarcloud:https://sonarcloud.io/project/overview?id=fwsa-batch-02_bookmyshowapp-ui <br>
-Subdomain:https://bookmyshow.fwsa.in/
 
-=======
 Netlify: https://bookmyshowapp-ui-mohamedmusaraf.netlify.app/ </br>
 Github:https://github.com/fwsa-batch-02/bookmyshowapp-ui. </br>
 Sonarcloud:https://sonarcloud.io/project/overview?id=fwsa-batch-02_bookmyshowapp-ui
 Subdomain:https://bookmyshow.fwsa.in/
->>>>>>> a5434f8d175cbf6a3e96e5acd77c4da40197735e
+
 
 **Features**
 
