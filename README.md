@@ -62,5 +62,5 @@ pushpa,kurup,maanadu,eternals,jail,bachelor,etc...<br>
   c. CVV - 333<br>
   d. CardHolder Name - musaraf<br>
 if any of the details will be miss match then it will alert.  <br>
-5.After the details matched then it will lead user to the OTP section. In that user need to click "Click to get Otp" <br>
-to receive OTP and paste it in the below feild to complete the transaction. 
+5.After the details matched then it will lead user to the OTP section. In that user need to click "Click to Sent Otp" <br>
+to receive OTP from Registered Email and paste it in the below feild to complete the transaction. 
