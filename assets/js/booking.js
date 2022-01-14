@@ -143,16 +143,29 @@ $(document).ready(function () {
     $('.revealOtp').click(function () {
         $('.otpNo').show();
     })
-    
+
 })
 
 
 function otpGenerate() {
+
     let nw = new Uint16Array(1);
-    let ee = crypto.getRandomValues(nw);
-    let ots = document.querySelector('.otpNo').innerHTML = ee;
-    localStorage.setItem('OTP', ots)
-    console.log(ots);
+    let ots = crypto.getRandomValues(nw);
+    let parseOtp = JSON.parse([...ots])
+    let user = localStorage.getItem('User_Detail');
+    Email.send({
+        Host: "smtp.gmail.com",
+        Username: "bookmyshow.fws@gmail.com",
+        Password: "Ha12345@",
+        To: user,
+        From: "bookmyshow.fws@gmail.com",
+        Subject: "Security Verification",
+        Body: "<#>  " + parseOtp + " is your BookMyShow Verification Code. Enjoy Watching."
+    }).then(
+        alert('Please Check Your Registered Email!')
+    );
+
+    localStorage.setItem('OTP', parseOtp)
 }
 
 function verifyOtp() {
