@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating</title>
+    <link rel="stylesheet" href="/assets/css/review.css">
+</head>
+<body>
+    <div class="imgLogo">
+        <img src="/assets/img/logo.png" alt="logo">
+    </div>
+    <button class="home"><a href="/index.html">Home</a></button>
+
+    <form id="form">
+        <input type="text" id="text" autocomplete="off" autofocus pattern="[A-Za-z]{3,}" required><br>
+        <button class="submit" onclick="review(event)" type="submit">submit</button>
+        <ul id="comment"></ul>
+    </form>
+    <script src="/assets/js/review.js"></script>
+</body>
+</html>

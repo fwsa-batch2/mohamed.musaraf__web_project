@@ -7,15 +7,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ticket</title>
     <link rel="stylesheet" href="/assets/css/bookTicket.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="/assets/js/jquery-3.5.1.min.js"></script>
+
 </head>
 
 <body>
     <div class="success">
         <img src="/assets/img/thumbUp.png" alt="thumbs">
         <h1>Ticket Booked Successfully !</h1>
+        <button class="hideReview"><a href="/pages/review.html">Click to Review</a></button>
         <button><a href="/index.html">Back to Home</a></button>
     </div>
 
+    <form>
+        <div class="rating1">
+        <span class="heading">User Rating</span>
+        <span  value="1" class="fa fa-star rat rat1"></span>
+        <span  value="2" class="fa fa-star rat2"></span>
+        <span  value="3" class="fa fa-star rat3"></span>
+        <span  value="4" class="fa fa-star rat4"></span>
+        <span  value="5" class="fa fa-star rat5"></span><br><br>
+        <p>Average based on <span class="totalRate">0</span> review.</p><br>
+        <hr style="border:3px solid #f1f1f1">
+
+        <div class="row">
+            <div class="side">
+                <div>5 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-5"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div class="text5">0</div>
+            </div>
+            <div class="side">
+                <div>4 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-4"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div class="text4">0</div>
+            </div>
+            <div class="side">
+                <div>3 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-3"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div class="text3">0</div>
+            </div>
+            <div class="side">
+                <div>2 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-2"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div class="text2">0</div>
+            </div>
+            <div class="side">
+                <div>1 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-1"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div class="text1">0</div>
+            </div>
+        </div>
+
+    </div>
+
+</form>
+<script src="/assets/js/review.js"></script>
     <script src="/assets/js/bookTicket.js"></script>
 </body>
 
