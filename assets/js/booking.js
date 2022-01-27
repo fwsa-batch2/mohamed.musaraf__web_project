@@ -8,6 +8,7 @@ let ticketPrice = +movieSelect.value;
 
 
 onPageLoad();
+
 // onpagload function
 
 function onPageLoad() {
@@ -16,6 +17,7 @@ function onPageLoad() {
         seats.forEach((seat, index) => {
             if (seatIndex.indexOf(index) > -1) {
                 seat.classList.add('selected')
+
             }
         })
     }
@@ -48,7 +50,7 @@ function updateSelectedCount() {
     localStorage.setItem('SelectedSeatsIndex', JSON.stringify(seatIndex));
     localStorage.setItem('SelectedSeatsTotalPrice', (total.innerHTML));
 
-    console.log(seatIndex);
+    console.log("seatIndex",seatIndex);
 
 
 }
@@ -58,9 +60,8 @@ movieSelect.addEventListener('change', (e) => {
     updateSelectedCount()
     setMovieData(e.target.selectedIndex, e.target.value)
 
-
+    
 })
-
 container.addEventListener('click', (e) => {
     if (e.target.classList.contains('seat') && !e.target.classList.contains('occupied')) {
         e.target.classList.toggle('selected')
@@ -76,10 +77,6 @@ updateSelectedCount();
 
 
 $(document).ready(function () {
-    $('.proceed').click(function () {
-        $('.bookBg').show(500);
-        $('.screen').hide();
-    })
     $('.show').click(function () {
         $('.bookBg').hide(500);
         $('.screen').show();
@@ -97,7 +94,7 @@ function onTicket() {
 
     innerSeat.innerHTML = noseat;
     innerPrice.innerHTML = seatPrice;
-
+    bookTicket()
 }
 
 
@@ -147,6 +144,7 @@ $(document).ready(function () {
 })
 
 
+
 function otpGenerate() {
 
     let nw = new Uint16Array(1);
@@ -167,6 +165,8 @@ function otpGenerate() {
 
     localStorage.setItem('OTP', parseOtp)
 }
+
+
 
 function verifyOtp() {
     let getOtp = localStorage.getItem('OTP');
