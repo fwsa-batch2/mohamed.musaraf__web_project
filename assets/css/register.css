@@ -17,9 +17,6 @@ body {
   top: 20vh;
 }
 
-input {
-  border-radius: 10px;
-}
 
 #register_form input {
   width: 80%;
@@ -33,8 +30,9 @@ input {
   height: 35px;
   width: 81.8%;
   margin: 5px 10%;
+  font-size: larger;
   color: white;
-  background: #3B5998;
+  background: #67a17f;
   border: none;
   border-radius: 5px;
 }
@@ -43,8 +41,9 @@ input {
   height: 35px;
   width: 81.8%;
   margin: 5px 10%;
+  font-size: larger;
   color: white;
-  background: #3B5998;
+  background: #D83D5A;
   border: none;
   border-radius: 5px;
 }
@@ -97,8 +96,8 @@ input#showPassword {
   width: 14px;
   height: 14px;
   position: relative;
-  bottom: 18vh;
-  left: 119vh;
+  bottom: 18.4vh;
+  left: 111vh;
   outline: none;
 }
 
@@ -106,8 +105,17 @@ input#showPassword {
 
 .hide {
   position: relative;
-  bottom: 18vh;
-  left: 111.5vh;
+  bottom: 20.5vh;
+  left: 113.5vh;
   color: #918274;
 
 }
+
+input{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #918274;
+  outline-style: none;
+}
+

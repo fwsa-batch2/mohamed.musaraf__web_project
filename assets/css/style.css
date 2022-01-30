@@ -145,7 +145,7 @@
     font-weight: 700;
     display: grid;
     position: relative;
-    right: 10px;
+    right: 35px;
     bottom: 3px;
 }
 
@@ -156,7 +156,7 @@
     padding: 3px 3px;
     position: relative;
     bottom: 3px;
-    right: -15px;
+    right: 10px;
     background: #ed5663;
     border-radius: 5px;
     border: none;
