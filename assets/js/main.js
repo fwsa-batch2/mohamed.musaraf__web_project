@@ -12,8 +12,8 @@ let time = 2000;
 
 // img list
 
-images[0] = '/assets/img/freeaccessbannercopy.webp';
-images[1] = '/assets/img/inoxbannerdesktop.webp';
+images[0] = './assets/img/freeaccessbannercopy.webp';
+images[1] = './assets/img/inoxbannerdesktop.webp';
 
 
 // change images

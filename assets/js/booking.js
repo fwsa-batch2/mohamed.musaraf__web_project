@@ -154,7 +154,7 @@ function otpGenerate() {
     Email.send({
         Host: "smtp.gmail.com",
         Username: "bookmyshow.fws@gmail.com",
-        Password: "Ha12345@",
+        Password: "Asha128127@",
         To: user,
         From: "bookmyshow.fws@gmail.com",
         Subject: "Security Verification",
