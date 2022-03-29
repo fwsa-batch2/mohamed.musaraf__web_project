@@ -1,3 +1,5 @@
+
+
 let i1 = 0;
 
 let images1 = [];
@@ -6,13 +8,13 @@ let time1 = 2000;
 
 // img list
 
-images1[0] = '/assets/img/the-investigation-stream-cover.webp';
-images1[1] = '/assets/img/fast-and-furious-9-stream-cover.webp';
-images1[2] = '/assets/img/venom-let-there-be-carnage-cover.webp';
-images1[3] = '/assets/img/old-cover.webp';
-images1[4] = '/assets/img/spider-man-far-from-home-cover.webp';
-images1[5] = '/assets/img/quiet-place--2-cover.webp';
-images1[6] = '/assets/img/the-croods-cover.webp';
+images1[0] = '/bookmyshowapp-ui/assets/img/the-investigation-stream-cover.webp';
+images1[1] = '/bookmyshowapp-ui/assets/img/fast-and-furious-9-stream-cover.webp';
+images1[2] = '/bookmyshowapp-ui/assets/img/venom-let-there-be-carnage-cover.webp';
+images1[3] = '/bookmyshowapp-ui/assets/img/old-cover.webp';
+images1[4] = '/bookmyshowapp-ui/assets/img/spider-man-far-from-home-cover.webp';
+images1[5] = '/bookmyshowapp-ui/assets/img/quiet-place--2-cover.webp';
+images1[6] = '/bookmyshowapp-ui/assets/img/the-croods-cover.webp';
 
 
 // change images
@@ -42,13 +44,13 @@ let time2 = 2000;
 
 // img list
 
-images2[0] = '/assets/img/the-investigation-stream.webp';
-images2[1] = '/assets/img/fast-and-furious-9-stream.jpg';
-images2[2] = '/assets/img/venom-let-there-be-carnage.webp';
-images2[3] = '/assets/img/old.webp';
-images2[4] = '/assets/img/spider-man-far-from-home.webp';
-images2[5] = '/assets/img/quiet-place--2.webp';
-images2[6] = '/assets/img/the-croods.webp';
+images2[0] = '/bookmyshowapp-ui/assets/img/the-investigation-stream.webp';
+images2[1] = '/bookmyshowapp-ui/assets/img/fast-and-furious-9-stream.jpg';
+images2[2] = '/bookmyshowapp-ui/assets/img/venom-let-there-be-carnage.webp';
+images2[3] = '/bookmyshowapp-ui/assets/img/old.webp';
+images2[4] = '/bookmyshowapp-ui/assets/img/spider-man-far-from-home.webp';
+images2[5] = '/bookmyshowapp-ui/assets/img/quiet-place--2.webp';
+images2[6] = '/bookmyshowapp-ui/assets/img/the-croods.webp';
 
 
 // change images

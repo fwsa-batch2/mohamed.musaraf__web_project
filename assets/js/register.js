@@ -33,7 +33,7 @@ function saveData(event) {
     alert("Details Already Exist")
     return null;
   } else {
-    window.open('/pages/sign.html')
+    window.open('/bookmyshowapp-ui/pages/sign.html')
   }
 
 

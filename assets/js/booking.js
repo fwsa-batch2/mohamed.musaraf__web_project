@@ -174,7 +174,7 @@ function verifyOtp() {
     let OtpAlert = document.querySelector('.otpAlert');
     console.log("get", getOtp);
     if (getOtp == num) {
-        window.open('/pages/bookTicket.html')
+        window.open('/bookmyshowapp-ui/pages/bookTicket.html')
     } else {
         OtpAlert.innerHTML = 'Please Check Your OTP'
     }

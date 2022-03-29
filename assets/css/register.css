@@ -96,8 +96,8 @@ input#showPassword {
   width: 14px;
   height: 14px;
   position: relative;
-  bottom: 18.4vh;
-  left: 111vh;
+  bottom: 16.78vh;
+  left: 108.5vh;
   outline: none;
 }
 
@@ -105,8 +105,8 @@ input#showPassword {
 
 .hide {
   position: relative;
-  bottom: 20.5vh;
-  left: 113.5vh;
+  bottom: 20.4vh;
+  left: 111.3vh;
   color: #918274;
 
 }
