@@ -12,8 +12,8 @@ let time = 2000;
 
 // img list
 
-images[0] = '../img/freeaccessbannercopy.webp';
-images[1] = '../img/inoxbannerdesktop.webp';
+images[0] = './img/freeaccessbannercopy.webp';
+images[1] = './img/inoxbannerdesktop.webp';
 
 
 // change images
@@ -42,33 +42,33 @@ function searchPages() {
     let searchBar =document.getElementById("search").value;
 
     if ('movies' == searchBar) {
-        window.open('../index.html')
+        window.open('./index.html')
     } else if ('spiderman' == searchBar) {
-        window.open('../pages/spider.html')
+        window.open('./pages/spider.html')
     } else if ('sooriyavanshi' == searchBar) {
-        window.open('../pages/sooriyavanshi.html')
+        window.open('./pages/sooriyavanshi.html')
     }else if ('residentevil' == searchBar) {
-        window.open('../pages/residentEvil.html')
+        window.open('./pages/residentEvil.html')
     }else if ('pushpa' == searchBar) {
-        window.open('../pages/pushpa.html')
+        window.open('./pages/pushpa.html')
     }else if ('maanadu' == searchBar) {
-        window.open('../pages/maanadu.html')
+        window.open('./pages/maanadu.html')
     }else if ('kurup' == searchBar) {
-        window.open('../pages/kurup.html')
+        window.open('./pages/kurup.html')
     }else if ('jail' == searchBar) {
-        window.open('../pages/jail.html')
+        window.open('./pages/jail.html')
     }else if ('eternals' == searchBar) {
-        window.open('../pages/eternals.html')
+        window.open('./pages/eternals.html')
     }else if ('encanto' == searchBar) {
-        window.open('../pages/encanto.html')
+        window.open('./pages/encanto.html')
     }else if ('clifford' == searchBar) {
-        window.open('../pages/clifford.html')
+        window.open('./pages/clifford.html')
     }else if ('chandigarh' == searchBar) {
-        window.open('../pages/chandigarh.html')
+        window.open('./pages/chandigarh.html')
     }else if ('bachelor' == searchBar) {
-        window.open('../pages/bachelor.html')
+        window.open('./pages/bachelor.html')
     }else if ('antiindian' == searchBar) {
-        window.open('../pages/antiIndian.html')
+        window.open('./pages/antiIndian.html')
     } else {
         alert("Please check your key")
     }
