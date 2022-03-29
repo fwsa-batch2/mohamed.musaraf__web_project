@@ -39,7 +39,7 @@ function loginEmail(event) {
 
     if (isMatch) {
         localStorage.setItem('User_Detail', emails);
-        window.open('/bookmyshowapp-ui/index.html')
+        window.open('./index.html')
     } else {
         document.getElementById('message').innerText = 'Invalid Credentials'
 
@@ -68,7 +68,7 @@ function loginPhone(event) {
 
     if (isMatch) {
         localStorage.setItem('User_phoneDetail', Phone);
-        window.open('/bookmyshowapp-ui/index.html')
+        window.open('./index.html')
     } else {
         document.getElementById('messages').innerText = 'Invalid Credentials'
 
